@@ -1,0 +1,37 @@
+section {
+    display: grid;
+
+    grid-template-columns: repeat(2,400px);
+}
+
+a {
+    display: flex;
+
+    position: relative;
+
+}
+
+img {
+    width: 375px;
+    height: 300px;
+
+    position:relative;
+}
+
+section h2 {
+    position: absolute;
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.562);
+
+    color: white;
+}
+
+section h3 {
+    position: absolute;
+    margin-top: 260px;
+    background-color: rgba(128, 128, 128, 0.562);
+
+    color: white;
+}
+
+
